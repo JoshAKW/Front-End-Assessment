@@ -1,12 +1,60 @@
+<!-- The profile should feature your skills, interests, and career goals. Be creative and try practice using basic HTML elements like headings, paragraphs, lists, and forms, as well as CSS concepts such as classes and flexbox.
+
+Feel free to copy the head and nav components from the home.html
+
+page so that your profile has the same look and feel as the other pages on the website.
+ -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesProfile.css" rel="stylesheet">
     <title>Jack Be Nimble!</title>
 </head>
+<body id="body">
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+<h1>Kazuma Yagami</h1>
+<img id="theMan" src="https://img.sharetv.com/shows/characters/thumbnails/kaze_no_stigma_jp.kazuma_yagami.jpg">
 
-<br>
-<br>
 
-<a href="./home.html"><< Back </a>
+
+<section>
+    <button class="like-button" id="color">My Favorite Color</button>
+    <button class="like-button" id="place">My Favorite Place</button>
+    <button class="like-button" id="ritual">My Favorite Ritual</button>
+</section>
+
+
+<section>
+    <h1 class="headers"> Check out my repertoire of awesomness!(skills)</h1>
+    <ul>
+            <li>Top level air manipulation</li>
+			<li>360 spatial awareness with a 5 mile radius</li>
+			<li>AeroDynamics Expert</li>
+			<li>Ability to cut through most materials</li>
+            <li>Tracking & Anti-tracking Expert</li>
+        </ul>
+        <h2>Where do I focus my intent?(interests)</h2>
+        <P>When I was a child, my famly abandoned me, because I couldn't use the ancestral fire magic, later my girlfriend was sacrificed to Demons. Since then I've had but one goal and interest, to become so powerful that no one can ever take from me again!</P>
+        <h3>In the end where do I want to be?(career goals)</h3>
+        <div>
+            I want power. <br>
+            I want to stand on the ruins of those who took from me. <br>
+            Last but, never least, I want Tsui Ling!
+            
+        </div>
+    </section>
+    
+    
+    <a href="./home.html"><< Back </a>
+    <script src="profile.js"></script>
+</body>
